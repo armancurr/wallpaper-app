@@ -1,22 +1,5 @@
 import "./globals.css";
-import { 
-  onest,
-  bricolage,
-  funnelSans,
-  funnelDisplay,
-  geist,
-  inter,
-  manrope,
-  montserrat,
-  poppins,
-  spaceGrotesk,
-  dmSerifDisplay,
-  instrumentSerif,
-  lora,
-  msMadi,
-  geistMono,
-  spaceMono
-} from "@/lib/fonts";
+import { onest } from "@/lib/fonts";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
@@ -189,7 +172,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
       </head>
       <body
-        className={`${onest.variable} ${bricolage.variable} ${funnelSans.variable} ${funnelDisplay.variable} ${geist.variable} ${inter.variable} ${manrope.variable} ${montserrat.variable} ${poppins.variable} ${spaceGrotesk.variable} ${dmSerifDisplay.variable} ${instrumentSerif.variable} ${lora.variable} ${msMadi.variable} ${geistMono.variable} ${spaceMono.variable} antialiased min-h-screen bg-background`}
+        className={`${onest.variable} antialiased min-h-screen bg-background`}
       >
         <Analytics />
         <ThemeProvider
